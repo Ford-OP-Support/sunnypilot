@@ -39,6 +39,14 @@ class CarControllerParams:
   def __init__(self, CP):
     pass
 
+BUTTON_STATES = {
+  "accelCruise": False,
+  "decelCruise": False,
+  "cancel": False,
+  "setCruise": False,
+  "resumeCruise": False,
+  "gapAdjustCruise": False
+}
 
 class CAR(StrEnum):
   BRONCO_SPORT_MK1 = "FORD BRONCO SPORT 1ST GEN"
